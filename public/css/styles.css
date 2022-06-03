@@ -1,0 +1,304 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.logo-buscador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo{
+    margin-top: 10px;
+    width: 50%;
+}
+
+.site-navbar ul{
+    display: none;
+}
+
+.main-productos {
+    width: 90%;
+    margin: auto;
+}
+
+main img {
+    width: 100%;
+}
+
+.productos {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+#producto-2,#producto-3,#producto-4{
+    display: none;
+}
+
+.truck{
+    position: relative;
+}
+#truck {
+    display: block;
+    font-size: 16px;
+    padding: 5px;  
+    color: #39b54a;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    border: solid 1px #39b54a;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top:-30px
+}
+
+article p {
+    line-height:20px;
+}
+
+
+.desc-productos {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;    
+}
+
+footer {
+    background-color: #fff;
+}
+
+
+
+.imagen-mercado-liebre {
+    margin-bottom: 10px;
+    margin: 20px;
+    margin-top: 10px;
+
+}
+.contenedor-buscador{
+    width: 40%;
+}
+#buscador{
+    margin-top: 15px;
+    width:100%;
+    border-radius: 5px;
+    border: solid 2px white;
+    height: 30px;
+}
+
+.lupita {
+    display: inline-block;
+    background-color: white;
+    border: solid 1px white;
+    font-size: 20px;
+    height: 28px;
+    width: 16px;
+    border-radius: 5px;
+    position: relative;
+    top: 8px;
+    right: 22px;
+    opacity: 0.7;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+.pago-tarjeta {
+    color: #1259c3;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.autito {
+    color: #1259c3;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.segurity {
+    color: #1259c3;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.copyright {
+    margin-top: 40px;
+}
+
+.cuotas {
+    text-align: center;
+    width: 100%;
+}
+
+h4 {
+    font-size: 23px;
+    margin-top: 15px;
+    color:#666;
+    font-weight: bold;
+
+}
+
+
+.precio {
+    font-size: 16px;
+    width: 50%;
+}
+
+.descuento {
+    font-size: 16px;
+    color: #39b54a;
+    width: 50%;
+}
+
+.descripciones {
+    font-size: 18px;
+    line-height: 50px;
+    display: none;
+}
+.precio-descuento{
+    display: flex;
+}
+
+.burger-menu {
+    background-color: #03264C;
+    width: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: #ebebeb;
+}
+
+ul {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+
+}
+
+@media (min-width:361px){
+.logo-buscador-cuotas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-buscador{
+    display: flex;
+    width: 80%;
+}
+
+.logo-buscador-cuotas p{
+    margin-top: 45px;
+    
+}
+.imagen-mercado-liebre{
+    margin-top: 20px;
+    margin: 0;
+}
+.contenedor-cuotas{
+    width: 20%;
+}
+.lupita{
+    background-color: #ebebeb;
+    border: solid 1px black;
+    font-size: 13px;
+    height: 19px;
+    width: 16px;
+    border-radius: 2px;
+    position: relative;
+    top:17px;
+    right: 0px;
+    opacity: 1;
+
+}
+.contenedor-buscador{   
+    width: 60%;
+    margin-bottom:10px;
+}
+#buscador{
+    
+    margin-top: 45px;
+    width:100%;
+    border-radius: 2px;
+    border: solid 1px black;
+    height: 20px;
+}
+.subtitulo{
+    margin-bottom: 20px;
+    width: 50%;
+}
+article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.site-navbar ul{
+    display: block;
+}
+
+.precio{
+font-size: 12px;
+}
+.descuento{
+    font-size: 12px;
+}
+.descripciones {
+    display: block;
+    font-size: 14px;
+}
+.burger-menu{
+    display: none;
+}
+.contenedor-productos {
+    display: flex;
+    
+}
+#producto-2{
+    display: block;
+    margin-left: 20px;
+}
+
+}
+
+@media (min-width:769px){
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .site-navbar ul{
+        display: block;
+    }
+    .descripciones {
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+    
+}
